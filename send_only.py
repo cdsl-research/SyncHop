@@ -35,7 +35,7 @@ import socket
 from machine import Timer,RTC
 
 s = socket.socket()
-host = '192.168.5.1'
+host = '<IP-ADDRESS>'
 port = 80
 
 s.connect(socket.getaddrinfo(host, port)[0][-1])
