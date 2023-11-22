@@ -1,2 +1,2 @@
 # SyncHop
-MicroPython Software for MultiHop networks with ESP32 devices.
+A software implemented by micropython for MultiHop networks with ESP32 devices.
