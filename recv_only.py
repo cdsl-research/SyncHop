@@ -5,7 +5,7 @@ from utime import localtime
 import network
 SSID="<SSID-NAME>"
 PASSWORD="<PASSWORD>"
-IP="192.168.5.1"
+IP="<IP-ADDRESS>"
 ap = network.WLAN(network.AP_IF)
 ap.active(True)
 ap.config(essid=SSID, authmode=3, password=PASSWORD)
